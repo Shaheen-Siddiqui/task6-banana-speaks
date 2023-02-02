@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+
+:root{
+    --primary-color:#FBBF24
+}
+body{
+    font-family: 'Fuzzy Bubbles', cursive;}
+
+.text{
+    text-align: center;
+    padding: 3.5rem;
+
+
+}
+
+
+#textarea{
+    padding: 1rem;
+    width: 40%;
+    border:2px solid black ;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: large;
+    font-weight: bold;
+
+    
+}
+
+#output{
+    border:1px solid black;
+    width: 40%;
+    position: relative;
+    left: 21.2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border:2px solid black ;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;  
+}
+
+
+#out_put{
+    text-align: center;
+    padding: 0.5rem;
+}
+.heading{
+    border-style: calc();
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 0.2rem;
+    border-block-end: 0rem;
+    margin: 0px px;
+    
+}
+.bottom{
+    text-align: center;
+    background:var(--primary-color);
+    padding: 1.2rem;
+}
+.about{
+    margin: 0px 150px;
+}
+#button_translate{
+    background-color: #94bff3;
+    padding: 0.6rem;
+    width: 240px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+    font-size: large;
+}
+
+#button_translate:hover{
+    background-color: var(--primary-color)
+}
